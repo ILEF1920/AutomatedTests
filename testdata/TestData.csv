@@ -1,3 +1,0 @@
-TestCaseID,Currency,Gender,Day,Month,Year,Name,Last,Email
-A_001,Euro,female,12,January,1950,Jennifer,Lopez,abcd@testWithCucumber.com
-A_002,US Dollar,male,10,February,1990,Enrique ,Iglesias,abcd@testWithCucumber.com
