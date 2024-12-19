@@ -39,7 +39,7 @@ public class DesktopPage extends Page {
 		}
 
 		public WebElement lenovoAddToCart() {
-			return SeleniumHelper.waitForElementToBeClickable(addToCartButtons().get(2));
+			return SeleniumHelper.waitForElementToBeClickable(addToCartButtons().get(0));
 		}
 
 		public WebElement desktopAddToCart() {
