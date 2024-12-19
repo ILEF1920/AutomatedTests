@@ -39,7 +39,7 @@ public class DesktopPage extends Page {
 		}
 
 		public WebElement lenovoAddToCart() {
-			return SeleniumHelper.waitForElementToBeClickable(addToCartButtons().get(0));
+			return SeleniumHelper.waitForElementToBeClickable(addToCartButtons().get(2));
 		}
 
 		public WebElement desktopAddToCart() {
@@ -51,7 +51,7 @@ public class DesktopPage extends Page {
 		}
 
 		public WebElement lenovoIcon() {
-			return SeleniumHelper.waitForElementToBeClickable(desktopIcons().get(2));
+			return SeleniumHelper.waitForElementToBeClickable(desktopIcons().get(0));
 		}
 
 		@FindBy(className = "ico-cart")
